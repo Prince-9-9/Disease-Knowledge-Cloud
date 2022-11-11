@@ -1,0 +1,71 @@
+.Header{
+    position: relative;
+    bottom: 10px;
+    width:100%;
+    height: 80px;
+    background: white;
+}
+
+.IITG_logo{
+    position: relative;
+    top: 5px;
+    height: 70px;
+    width: 450px;
+}
+
+.contact{
+    position: relative;
+    left: 88%;
+    bottom: 95%;
+    font-size: 18px;
+}
+
+.Heading{
+    position: relative;
+    top: -40px;
+    background: #C58E0C;
+    width: 100%;
+    height: 120px;
+}
+
+.Heading>h1{
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 28px;
+}
+
+.main_image{
+    position: relative;
+    top: -40px;
+    width: 100px;
+}
+
+.taskbar{
+    position: relative;
+    top: -40px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(233, 184, 115);
+}
+
+.Button{
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 220px;
+    font-size: 20px;
+    padding: 15px 32px;
+    /* border-style: none solid none none;;
+    border-right-color: rgb(2, 0, 0); */
+    margin-right: 20px;
+}
+
+.Button:hover{
+    /* font-size: 25px;
+    position: relative;
+    top: -5px; */
+    transform: scale(1.4)
+}
