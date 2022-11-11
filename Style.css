@@ -61,6 +61,7 @@
     /* border-style: none solid none none;;
     border-right-color: rgb(2, 0, 0); */
     margin-right: 20px;
+    color: rgb(43, 38, 25);
 }
 
 .Button:hover{
@@ -68,4 +69,8 @@
     position: relative;
     top: -5px; */
     transform: scale(1.4)
+}
+
+.Button:active{
+    color: none;
 }
