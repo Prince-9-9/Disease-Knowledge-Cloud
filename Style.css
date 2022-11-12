@@ -15,7 +15,7 @@
 
 .contact{
     position: relative;
-    left: 88%;
+    left: 87%;
     bottom: 95%;
     font-size: 18px;
 }
@@ -26,6 +26,8 @@
     background: #C58E0C;
     width: 100%;
     height: 120px;
+    margin-bottom: -40px;
+    
 }
 
 .Heading>h1{
@@ -42,11 +44,15 @@
 }
 
 .taskbar{
+    z-index: 10;
     position: relative;
     top: -40px;
     width: 100%;
     height: 50px;
     background-color: rgb(233, 184, 115);
+    position: sticky;
+    top: 0;
+    margin-bottom: 0;
 }
 
 .Button{
@@ -64,13 +70,42 @@
     color: rgb(43, 38, 25);
 }
 
+.Button_in_use{
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 220px;
+    font-size: 20px;
+    padding: 15px 32px;
+    /* border-style: none solid none none;;
+    border-right-color: rgb(2, 0, 0); */
+    margin-right: 20px;
+    color: rgb(43, 38, 25);
+}
 .Button:hover{
-    /* font-size: 25px;
-    position: relative;
-    top: -5px; */
-    transform: scale(1.4)
+    transform: scale(1.4) 
 }
 
 .Button:active{
     color: none;
+}
+
+p{
+    font-size: 20px;
+}
+
+.footer{
+    margin-top: 100px;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(34, 37, 55);
+}
+
+.footer>img{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 50px;
 }
